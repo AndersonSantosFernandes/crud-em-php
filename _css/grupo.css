@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+/*font-family: 'Titillium Web', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --borda-padrao: 1px solid brown;
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}
+header{
+    background-color: brown;
+    text-align: center;
+    color: white;
+}
+div#grupo{
+    width: 1200px;
+    height: 530px;
+    
+    margin: auto;
+    margin-top: 15;
+    padding: 15px;
+    background-image: url("../imagens/paisagem.jpg");
+    background-size: 100%;
+
+}
+div#mais,div#menos {
+width: 580px;
+height: 500px;
+
+display:inline-block;
+margin: auto;
+
+}
+div#integr{
+    width: 560px;
+    height: 90px;
+   
+    margin: auto;
+    margin-top: 6px;
+    
+}
+
+div#texto{
+    text-align: center;
+    width: 430px;
+    height: 85px;
+   background-color: rgba(165, 42, 42, 0.89);
+    margin-left: 110px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/*Anderson*/
+div#anderson{
+    width: 90px;
+    height: 88px;    
+    background-image: url("../imagens/anderson.png");
+    background-position: 50% 50%;
+    background-size: 120px 120px;
+    transition:  all 0.3s ease-in; 
+}
+div#anderson:hover{
+    background-position: 0px 0px;
+    background-size: 88px 88px;
+    transform: scale(1.2);
+} 
+/*Gabriela*/
+div#gabriela{
+    width: 90px;
+    height: 88px;
+    background-image: url("../imagens/gabriela.png");
+    background-position: 50% 50%;
+    background-size: 120px 120px;
+    transition:  all 0.5s ease-in; 
+}
+div#gabriela:hover{
+    background-position: 0px 0px;
+    background-size: 88px 88px;
+    transform: scale(1.2);
+} 
+/*Gustavo*/
+div#gustavo{
+    width: 90px;
+    height: 88px;
+    background-image: url("../imagens/gustavo.jpg");
+    background-position: 50% 50%;
+    background-size: 120px 120px;
+    transition:  all 0.5s ease-in; 
+}
+div#gustavo:hover{
+    background-position: 0px 0px;
+    background-size: 88px 88px;
+    transform: scale(1.2);
+} 
+/*maicom*/
+div#maicom{
+    width: 90px;
+    height: 88px;
+    background-image: url("../imagens/maicom.png");
+    background-position: 50% 50%;
+    background-size: 120px 120px;
+    transition:  all 0.5s ease-in; 
+}
+div#maicom:hover{
+    background-position: 0px 0px;
+    background-size: 88px 88px;
+    transform: scale(1.2);
+} 
+/*Mrco*/
+div#marco{
+    width: 90px;
+    height: 88px;
+    background-image: url("../imagens/marco.png");
+    background-position: 50% 50%;
+    background-size: 120px 120px;
+    transition:  all 0.5s ease-in; 
+}
+div#marco:hover{
+    background-position: 0px 0px;
+    background-size: 88px 88px;
+    transform: scale(1.2);
+} 
+/*Stenio do grupo*/
+div#stenio{
+    width: 90px;
+    height: 88px;
+    background-image: url("../imagens/stenio.png");
+    background-position: 50% 50%;
+    background-size: 120px 120px;
+    transition:  all 0.5s ease-in; 
+}
+div#stenio:hover{
+    background-position: 0px 0px;
+    background-size: 88px 88px;
+    transform: scale(1.2);
+} 
+/*Tatiane*/
+div#tatiane{
+    width: 90px;
+    height: 88px;
+    background-image: url("../imagens/tatiane.png");
+    background-position: 50% 50%;
+    background-size: 120px 120px;
+    transition:  all 0.5s ease-in; 
+}
+div#tatiane:hover{
+    background-position: 0px 0px;
+    background-size: 88px 88px;
+    transform: scale(1.2);
+} 
+/*Thiago*/
+div#thiago{
+    width: 90px;
+    height: 88px;
+    background-image: url("../imagens/thiago.jpg");
+    background-position: 50% 50%;
+    background-size: 120px 120px;
+    transition:  all 0.5s ease-in; 
+}
+div#thiago:hover{
+    background-position: 0px 0px;
+    background-size: 88px 88px;
+    transform: scale(1.2);
+} 
+/*Victor*/
+div#victor{
+    width: 90px;
+    height: 88px;
+    background-image: url("../imagens/victor.png");
+    background-position: 50% 50%;
+    background-size: 120px 120px;
+    transition:  all 0.5s ease-in; ;
+}
+div#victor:hover{
+    background-position: 0px 0px;
+    background-size: 88px 88px;
+    transform: scale(1.2);
+} 
+/*Vitor*/
+div#vitor{
+    width: 90px;
+    height: 88px;
+    background-image: url("../imagens/vitor.png");
+    background-position: 50% 50%;
+    background-size: 120px 120px;
+    transition:  all 0.5s ease-in; 
+}
+div#vitor:hover{
+    background-position: 0px 0px;
+    background-size: 88px 88px;
+    transform: scale(1.2);
+} 

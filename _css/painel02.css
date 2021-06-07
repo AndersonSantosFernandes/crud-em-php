@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+/*font-family: 'Titillium Web', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+/*font-family: 'Orbitron', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    background-image: url("../imagens/vender.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+header#cabecalho{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+div#main{
+    background-image: url("../imagens/vender.png");
+    width: 1000px;
+    height: 550px;
+    border: solid blue 1px;
+    margin: auto;
+    border-radius: 10px;
+}
+div#menu-bar{
+    width: 300px;    
+    background-color: rgba(4, 16, 185, 0.65);
+    position: absolute;
+    top: 0px;
+    left: -290px;
+    margin-bottom: 50px;
+    transition: all 0.5s;
+}
+div#menu-bar:hover{
+ left: 0;
+}
+div#menu-bar a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px;
+    margin-bottom: 2px;
+    transition: all 0.5s;
+}
+div#menu-bar a:hover{
+    background-color: rgba(4, 16, 185, 0.8);
+    color: white;
+    font-weight: bold;
+    text-align: right;
+}        
+/*referente ao nome de usuário no topo da página*/
+h5{
+    text-align: right;
+    padding: 8px;
+}
+/*referente a div#formulário*/
+div#formulario{
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+}
+div#formulario fieldset{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+div#formulario fieldset legend{
+    font-weight: bold;
+    font-size: 15px;
+}
+div#formulario input{
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    margin: auto;
+    padding: 3px;
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+div#formulario input{
+    font-weight: bold;
+}
+/*Referente a div#form-in*/
+div#form-int{
+    background-color: rgba(76, 78, 219, 0.705);
+    width: 600px;
+    height: 150px;
+    text-align: center; 
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+div#form-int h1{
+    text-align: center;
+}
+/*Referente a div#form-int1 na pagina sobre.php*/
+div#form-int1{
+    width: 700;
+    background-color: rgba(76, 78, 219, 0.705);
+    text-align: center; 
+    margin: auto;
+    padding: 10px;
+    margin-top: 15px;
+}
+/*Referente a article#arti ma página consulta estoque.php*/
+article#arti{
+    width: 1000px;
+    text-align: left;
+    background-color: rgba(76, 78, 219, 0.705);
+    margin: auto;
+    margin-top: 3px;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+
+/*Botão na página consulta_estoque.php linha 50*/
+/*input#confirm{
+    width: 20px; 
+    height: 8px;
+}*/
+/*referente a div#welcome na página painel.php linha 32*/
+div#welcome{
+    width: 800px;
+    padding: 8px;
+    background-color: rgba(76, 78, 219, 0.705);
+    margin: auto;
+    margin-top: 30px;
+}
+div#welcome p{
+    margin: 15px;
+    text-indent: 15px;
+}
+h1{
+    text-align: center;
+}
+ a#geral{
+    text-decoration: none;
+}
+table{
+    width:100%;
+border: black solid 1px;
+border-collapse: collapse;
+}
+table td{
+font-size:17px;
+font-weight: bold;
+color: white;
+border: black solid 1px;
+padding:5px;
+background-color: blue;
+}
+/*referente as janelas de ajuda existente em todas as páginas*/
+div#help{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(50, 42, 165, 0.401);
+    position: absolute;
+    top: 100px;
+    left: 950px;
+    font-size: 3.9px;
+    border: solid rgba(0, 0, 0, 0.746) 1px;
+    padding: 2px;
+    opacity: 0.2;
+    transition:  all 1s;
+}
+div#help:hover{
+    color: blanchedalmond;
+    font-weight: bold;
+    opacity: 0.9;
+    transform: scale(6);
+    top: 200px;
+    left: 800px;   
+    background-color: rgba(61, 42, 165, 0.95);  
+    border-radius: 5px;  
+}
+/*referente ao cabeçalho de index e tla de cadastro*/
+header#index{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+/*referente aos inputs das telas de login*/
+form#especial input{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 20px;margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.575);
+}
+form#especial{
+    font-size: 20px;
+    width: 300px;
+    margin: auto;
+    text-align: center;    
+}
+form#especial fieldset{
+    border: none;
+}
+/*formulário na página painel.php*/
+form#pri input{
+   width: 300px;
+   height: 40px;
+   display: inline-block;
+   border-radius: 10px;
+   margin-top: 15px;   
+}
+/*referente ao formulario da pagina geral.php*/
+div#formularioGeral{
+    font-weight: bold;    
+    width: 700px;
+    height: 250px;    
+    margin: auto;
+    margin-bottom: 5px;
+    text-align: center;
+}
+div#form-intGeral{   
+    width: 680px;
+    height: 150px;  
+    text-align: center;    
+    clear: both;
+    position:relative;
+    margin: auto;
+    
+}
+
+
+
+
+
+
+
+/*
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --cor-padrao: rgb(165, 165, 165);
+    --borda-padrao: 1px solid orange;
+    --raio-de-borda: 10px;
+}
+body{
+    
+    font-family: 'Orbitron', sans-serif;
+   
+}
+header#cabecalho{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: var(--raio-de-borda);
+}
+div#main{
+    width: 1000px;
+    height: 500px;
+    border: var(--borda-padrao);
+    margin: auto;
+    padding: 15px;
+}
+div#menu-bar a{
+    display: block;
+    text-decoration: none;
+    
+}
+div#menu-bar{
+    width: 200px;
+    height: 350px;
+    font-weight: bold;
+    background-color: var(--cor-padrao);
+    border: var(--borda-padrao);
+    float: left;
+    border-radius: var(--raio-de-borda);
+    padding: 5px;
+}
+div#formulario{
+    width: 700px;
+    height: 400px;
+    float: right;
+    border: var(--borda-padrao);
+    background-color: var(--cor-padrao);
+}
+fieldset{
+    width: 600px;
+    height: 200px;
+    margin: auto;
+    border: var(--borda-padrao);
+    border-radius: var(--raio-de-borda);
+    padding: 5px;
+}
+legend{
+    margin: auto;
+}
+div#welcome{
+    padding: 20px;
+}
+div#form-int{
+    width: 680px;
+    height: 150px;
+    border: var(--borda-padrao);
+    position: absolute;
+    top: 330px;
+    left: 480px;
+    text-align: center;
+    border-radius: var(--raio-de-borda);
+    background-color: var(--cor-padrao);
+}
+article#arti{
+    margin: auto;
+    background-color: var(--cor-padrao);
+    width: 1000px;
+    padding: 10px;
+    margin-bottom: 2px;
+    border-radius:var(--raio-de-borda);
+}
+input{
+    display: block;
+    margin: 5px;
+    width: 200px;
+    height: 20px;
+    padding: 3px;
+    border-radius: var(--raio-de-borda);
+    border: var(--borda-padrao);
+    text-align: center;
+}
+*/
